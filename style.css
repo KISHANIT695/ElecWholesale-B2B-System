@@ -1,0 +1,6 @@
+:root { --main: #232f3e; --orange: #ff9900; --light: #f3f3f3; }
+body { font-family: Arial, sans-serif; background: var(--light); margin: 0; }
+.navbar { background: var(--main); color: white; padding: 15px; display: flex; justify-content: space-between; }
+.container { padding: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+.card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.btn { background: var(--orange); border: none; padding: 10px; cursor: pointer; font-weight: bold; width: 100%; }
